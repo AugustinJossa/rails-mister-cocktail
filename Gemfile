@@ -10,7 +10,10 @@ gem 'bootstrap-sass'
 gem 'font-awesome-sass'
 gem 'simple_form'
 gem 'autoprefixer-rails'
+
 gem 'figaro'
+gem 'cloudinary'
+gem 'carrierwave', '~> 0.11.2'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.0.5'

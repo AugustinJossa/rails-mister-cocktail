@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :products
   # For details on the DSL available within this file, see http://guides.rubyonrails.org/routing.html
 resources :cocktails
 resources :cocktails do
@@ -6,5 +7,6 @@ resources :cocktails do
 end
 resources :ingredients
 
+root to: "home#index"
 end
 
