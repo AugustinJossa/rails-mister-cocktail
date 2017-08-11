@@ -1,0 +1,15 @@
+.btn-small {
+  color: white;
+  padding: 10px 15px;
+  border-radius: 4px;
+  font-weight: bold;
+  background: rgba(120, 120, 120, 0.5);
+  transition: background 0.3s ease;
+  margin-bottom: 10px;
+}
+.btn-small:hover {
+  opacity: 1;
+  background: rgba(120, 120, 120, 0.2);
+  text-decoration: none;
+  color: white;
+}

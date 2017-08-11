@@ -1,0 +1,11 @@
+<div class="container">
+  <div class="row">
+    <div class="col-sm-6 col-sm-offset-3">
+      <div class="box">
+        <h1>Add a cocktail</h1>
+        <%= render 'form', cocktail: @cocktail %>
+        <%= link_to 'add an ingredient', new_ingredient_path %>
+      </div>
+    </div>
+  </div>
+</div>

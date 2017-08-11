@@ -1,0 +1,9 @@
+<%= simple_form_for [@cocktail, @dose] do |f| %>
+  <%= f.error_notification %>
+  <%= f.association :ingredient %>
+  <%#= f.input :ingredient_id, collection: Ingredient.all %>
+  <%= f.input :description %>
+  <%= f.button :submit %>
+<% end %>
+
+<%= link_to 'Add an ingredient', new_ingredient_path %>

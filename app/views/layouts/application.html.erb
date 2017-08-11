@@ -11,7 +11,16 @@
   </head>
 
   <body>
+    <div class='navbar-wagon'>
+      <i class="fa fa-glass navbar-wagon-brand" aria-hidden="true"></i>
+      <div class='navbar-wagon-right'>
+      <%= link_to 'Home', cocktails_path, {class: 'element-padding'} %>
+      <%= link_to 'Add a cocktail', new_cocktail_path %>
+      </div>
+    </div>
+
     <%= yield %>
+    <div class='footer'> <p>I am a footer dude!</p></div>
     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
   </body>
 </html>
