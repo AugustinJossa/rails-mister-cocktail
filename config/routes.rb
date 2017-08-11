@@ -7,6 +7,6 @@ resources :cocktails do
 end
 resources :ingredients
 
-root to: "home#index"
+root to: "cocktails#index"
 end
 
